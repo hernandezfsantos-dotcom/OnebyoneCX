@@ -1,0 +1,140 @@
+/* Same content and identity; a shorter, clearer reading path. */
+.simplified-home{--clarity-border:#e2e5de;--clarity-sage:#edf3ee}
+.simplified-home>.section{padding-block:56px!important}
+.simplified-home :is(h2,h3,h4){text-wrap:balance}
+.simplified-home p{line-height:1.6}
+#main.simplified-home>.export-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:44px;padding-top:32px;padding-bottom:48px;min-height:0}
+.simplified-home .video-message h1{font-size:clamp(34px,3.75vw,54px)!important;line-height:1.09;letter-spacing:-.045em;max-width:17ch}
+.simplified-home .hero-promise{font-size:clamp(17px,1.45vw,20px)!important;line-height:1.6!important;max-width:54ch;margin-top:20px}
+.simplified-home .intro-copy{font-size:16px!important;line-height:1.6!important;max-width:55ch}
+.simplified-home .hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:14px 24px;margin-top:22px}
+.simplified-home .hero-actions .video-cta{margin:0}
+.simplified-home .folira-hero-media{order:0!important;margin:0;width:100%}
+.simplified-home #services{border-top:1px solid var(--clarity-border)}
+.simplified-home #services h2,.simplified-home #offers h2{font-size:clamp(30px,3vw,42px);line-height:1.15;margin:0 0 14px}
+.simplified-home #services .services-intro{max-width:72ch;font-size:17px;margin-bottom:26px}
+.simplified-home .service-catalogue{gap:22px}
+.simplified-home .service-card{border-radius:18px;box-shadow:none}
+.simplified-home .service-card img{aspect-ratio:3.3;object-fit:cover;object-position:center 45%}
+.simplified-home .service-card-copy{padding:24px;gap:12px}
+.simplified-home .service-card-copy h3{font-size:clamp(24px,2.1vw,29px);line-height:1.17;letter-spacing:-.025em;color:#202a23!important}
+.simplified-home .service-card-copy h3 span{color:inherit!important}
+.simplified-home .service-card-copy p{font-size:16px}
+.simplified-home .service-card-tags{font-size:14px!important;font-weight:500;padding:9px 11px;border-radius:7px}
+.simplified-home #audience{padding-top:10px!important;padding-bottom:38px!important}
+.simplified-home #audience>.wrap>h2{font-size:24px;margin-bottom:10px}
+.simplified-home #audience .audience-copy{max-width:85ch;font-size:17px}
+.clarity-disclosure{border:1px solid var(--clarity-border);background:#fff;border-radius:12px;margin-top:22px;overflow:hidden}
+.clarity-disclosure>summary,.revision-disclosure>summary{padding:18px 22px;cursor:pointer;font-size:16px;font-weight:600;line-height:1.4;min-height:54px;color:#202a23}
+.clarity-disclosure>summary::marker,.revision-disclosure>summary::marker{color:#fc5b34}
+.clarity-disclosure[open]>summary{border-bottom:1px solid var(--clarity-border)}
+.simplified-home #example{padding:26px 0!important;overflow:visible}
+.simplified-home #example>.wrap{width:calc(100% - 40px)}
+.simplified-home .situations-heading{margin-bottom:22px}
+.simplified-home .situations-heading h2{font-size:28px}
+.simplified-home .situations-stack{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;transform:none!important;position:static!important;height:auto!important}
+.simplified-home .situation-card{position:static!important;transform:none!important;opacity:1!important;width:auto!important;min-width:0;min-height:0!important;padding:22px;border-radius:12px;display:flex;flex-direction:column;gap:12px;background:#f8faf7}
+.simplified-home .situation-card h3{font-size:22px;line-height:1.25;margin:0}
+.simplified-home .situation-card p{font-size:16px;margin:0}
+.simplified-home .situation-card .situation-symbol{display:none}
+.simplified-home .situation-cta{margin-top:auto;padding-top:18px;font-size:15px}
+.revision-disclosure{border-block:1px solid var(--clarity-border);margin-block:8px}
+.revision-disclosure>summary{padding:12px 0;font-size:15px}
+.simplified-home .revision-example{padding:16px 0;margin:0}
+.simplified-home .revision-messages{display:block}
+.simplified-home .revision-messages>div{margin-bottom:12px}
+.simplified-home #about{border-block:1px solid var(--clarity-border)}
+.simplified-home .bio{gap:clamp(28px,5vw,70px);align-items:start}
+.simplified-home .bio-copy .bio-statement{font-size:clamp(21px,2vw,26px)!important;line-height:1.45!important}
+.simplified-home .personal-quote{margin-top:32px;padding-top:26px;border-top:1px solid var(--clarity-border)}
+.simplified-home .personal-quote blockquote{font-size:clamp(20px,2.2vw,28px);line-height:1.5}
+.simplified-home .secondary-information .section{padding:24px 0!important}
+.simplified-home .secondary-information .section>.wrap{width:calc(100% - 44px)}
+.simplified-home .secondary-information h2{font-size:24px;margin-bottom:12px}
+.simplified-home .secondary-information p{font-size:16px}
+.simplified-home .working-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;counter-reset:step;list-style:none;padding:0;margin-top:26px}
+.simplified-home .working-steps li{display:block!important;position:relative;padding:22px!important;margin:0;border:1px solid var(--clarity-border);border-radius:12px;background:white;font-size:17px;line-height:1.55}
+.simplified-home .working-steps li::before{counter-increment:step;content:counter(step);display:block!important;position:static!important;width:auto;height:auto;background:none;color:#687e6e;font-size:22px;font-weight:650;margin-bottom:12px;border:0}
+/* Prices: three client-support choices, then a distinct project-based study. */
+.simplified-home .pricing-overview{display:block!important}
+.simplified-home .pricing-client .pricing-card-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.simplified-home .pricing-group-heading{font-size:23px;line-height:1.3;margin:24px 0 16px;min-height:0}
+.simplified-home .pricing-card{padding:24px;border-radius:14px;box-shadow:none;min-width:0}
+.simplified-home .pricing-card-name{font-size:20px!important;line-height:1.3}
+.simplified-home .pricing-card-rate{font-size:36px!important;line-height:1.2;letter-spacing:-.03em}
+.simplified-home .pricing-card-basis{font-size:15px}
+.simplified-home .pricing-card-description{font-size:16px!important}
+.simplified-home .pricing-market{margin-top:30px;padding-top:26px;border-top:1px solid var(--clarity-border)}
+.simplified-home .pricing-market .pricing-group-heading{margin-top:0}
+.simplified-home .pricing-market .pricing-card-grid{display:block!important}
+.simplified-home .pricing-market .pricing-card{display:grid!important;grid-template-columns:minmax(0,1.2fr) minmax(0,1.6fr) auto;grid-template-rows:auto auto;gap:10px 24px;align-items:center;background:var(--clarity-sage)}
+.simplified-home .pricing-market .pricing-card-name{grid-column:1;grid-row:1;margin:0}
+.simplified-home .pricing-market .pricing-card-rate{grid-column:1;grid-row:2;font-size:28px!important;margin:0}
+.simplified-home .pricing-market .pricing-card-basis{grid-column:2;grid-row:1;margin:0;font-weight:600}
+.simplified-home .pricing-market .pricing-card-description{grid-column:2;grid-row:2;margin:0}
+.simplified-home .pricing-market .pricing-card-action{grid-column:3;grid-row:1/3;margin:0}
+.simplified-home #closing{background:var(--clarity-sage);padding-block:34px!important}
+.simplified-home #closing h2{font-size:clamp(25px,2.8vw,36px);max-width:34ch}
+.simplified-home #faq details{border-radius:0;box-shadow:none;border:0;border-bottom:1px solid var(--clarity-border);margin:0;background:transparent;padding:0}
+.simplified-home #faq summary{font-size:17px;line-height:1.45;padding:20px 0}
+.simplified-home #faq details p{font-size:16px;max-width:85ch;margin:0 0 22px}
+.simplified-home .blog-entry{border-top:1px solid var(--clarity-border)}
+@supports(grid-template-rows:subgrid){.simplified-home .service-card-copy{row-gap:14px}.simplified-home .pricing-client .pricing-card-grid{row-gap:14px}.simplified-home .pricing-client .pricing-card{grid-row:span 5;display:grid;grid-template-rows:subgrid;row-gap:14px}.simplified-home .pricing-client .pricing-card>*{margin:0}.simplified-home .pricing-client .pricing-card-action{align-self:end}}
+@media(max-width:1000px){.simplified-home .situations-stack{grid-template-columns:1fr}.simplified-home .pricing-market .pricing-card{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr)}.simplified-home .pricing-market .pricing-card-action{grid-column:1/-1;grid-row:3;justify-self:start}.simplified-home .working-steps{gap:14px}}
+@media(max-width:760px){#main.simplified-home>.export-hero{display:flex;flex-direction:column;gap:26px;padding-top:24px;padding-bottom:34px}.simplified-home .folira-hero-text{order:0!important}.simplified-home .folira-hero-media{order:1!important}.simplified-home .video-message h1{font-size:clamp(32px,8vw,44px)!important;max-width:22ch}.simplified-home .hero-promise{font-size:17px!important}.simplified-home>.section{padding-block:36px!important}.simplified-home .service-catalogue,.simplified-home .working-steps,.simplified-home .pricing-client .pricing-card-grid{display:grid!important;grid-template-columns:1fr}.simplified-home .service-card-copy{padding:22px;display:flex;gap:12px}.simplified-home .service-card img{aspect-ratio:2.8}.simplified-home .pricing-client .pricing-card{grid-row:auto;display:flex;gap:14px}.simplified-home .pricing-market .pricing-card{display:flex!important;flex-direction:column;align-items:stretch;gap:14px}.simplified-home .pricing-card-action{margin-top:8px}.simplified-home .working-steps li{font-size:16px}.simplified-home .service-card-copy h3{font-size:26px}.simplified-home .bio{gap:28px}.simplified-home .situation-card{padding:18px}.clarity-disclosure>summary{padding:16px}.simplified-home #example>.wrap{width:calc(100% - 28px)}}
+@media(prefers-reduced-motion:reduce){.simplified-home *{scroll-behavior:auto!important}}
+.simplified-home .working-steps li{counter-increment:none}
+/* Balanced introduction: the headline spans the layout instead of forming a tall left column. */
+#main.simplified-home>.export-hero{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);column-gap:clamp(28px,4vw,60px);row-gap:28px;align-items:center;padding-bottom:48px}
+.simplified-home .hero-heading-balanced{grid-column:1/-1;width:100%;min-width:0}
+.simplified-home .hero-heading-balanced .video-label{margin:0 0 16px;font-size:16px;line-height:1.5}
+.simplified-home .hero-heading-balanced h1{font-size:clamp(38px,4.2vw,62px)!important;font-weight:560;line-height:1.12;letter-spacing:-.045em;max-width:100%;margin:0;text-wrap:balance;overflow-wrap:normal}
+.simplified-home .hero-heading-balanced h1 em{display:inline!important;font-style:normal;color:var(--brand-coral,#fc5b34);margin:0}
+.simplified-home .folira-hero-text{grid-column:1;grid-row:2;margin:0;max-width:none;align-self:center}
+.simplified-home .folira-hero-media{grid-column:2;grid-row:2;align-self:center}
+.simplified-home .export-hero-copy .hero-promise{font-size:18px!important;line-height:1.65!important;font-weight:450;margin:0 0 16px;max-width:none}
+.simplified-home .export-hero-copy .intro-copy{font-size:16px!important;margin:0 0 20px;max-width:none}
+.simplified-home .export-hero-copy .hero-actions{margin:0}
+@media(min-width:761px) and (max-width:999px){#main.simplified-home>.export-hero{display:grid;grid-template-columns:1fr;row-gap:24px;max-width:740px}.simplified-home .hero-heading-balanced{grid-column:1;grid-row:1}.simplified-home .folira-hero-text{grid-column:1;grid-row:2}.simplified-home .folira-hero-media{grid-column:1;grid-row:3;width:100%;max-width:none}.simplified-home .hero-heading-balanced h1{font-size:clamp(38px,5.3vw,48px)!important}.simplified-home .hero-heading-balanced .video-label{margin-bottom:12px}}
+@media(max-width:760px){#main.simplified-home>.export-hero{display:flex;gap:24px}.simplified-home .hero-heading-balanced{order:0}.simplified-home .folira-hero-text{order:1!important}.simplified-home .folira-hero-media{order:2!important}.simplified-home .hero-heading-balanced h1{font-size:clamp(30px,7.4vw,42px)!important;line-height:1.15;text-wrap:pretty}.simplified-home .hero-heading-balanced .video-label{font-size:15px;margin-bottom:12px}.simplified-home .export-hero-copy .hero-promise{font-size:17px!important}.simplified-home .export-hero-copy .hero-actions{gap:14px 20px}}
+/* Final review: a larger film and an unmistakably handwritten vector signature. */
+@media(min-width:1000px){#main.simplified-home>.export-hero{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}.simplified-home .export-hero-copy .hero-promise{font-size:17px!important}}
+.simplified-home .signature-handwritten{display:block!important;transform:none!important;padding:0!important;margin:26px 0 0!important;line-height:1!important;max-width:100%;background:none!important}
+.simplified-home .signature-handwritten img{display:block;width:clamp(230px,26vw,340px);height:auto;max-width:100%;margin:0;transform:rotate(-3deg);transform-origin:left center}
+.simplified-home .tools-section{border-bottom:1px solid var(--clarity-border)}
+.simplified-home .tools-section h2{font-size:clamp(28px,3vw,40px);line-height:1.15;margin:0 0 16px}
+.simplified-home .tools-intro{max-width:75ch;margin-bottom:26px;font-size:17px}
+.simplified-home .tools-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;margin:0}
+.simplified-home .tool-item{padding:22px 0;border-top:1px solid var(--clarity-border);min-width:0}
+.simplified-home .tool-item dt{font-size:17px;font-weight:650;line-height:1.45;color:#202a23}
+.simplified-home .tool-item dd{font-size:16px;line-height:1.6;margin:10px 0 0;color:#555}
+.simplified-home .tools-note{padding:18px 22px;margin:22px 0 0;border-radius:10px;background:var(--clarity-sage);font-size:16px;max-width:none}
+@supports(grid-template-rows:subgrid){.simplified-home .tool-item{display:grid;grid-template-rows:subgrid;grid-row:span 2;row-gap:10px}.simplified-home .tool-item dd{margin:0}}
+@media(min-width:761px) and (max-width:999px){.simplified-home .tools-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.simplified-home .tools-grid{grid-template-columns:1fr}.simplified-home .tool-item{display:block;grid-row:auto}.simplified-home .tool-item dd{margin-top:10px}.simplified-home .tools-note{padding:18px}.simplified-home .signature-handwritten img{width:260px}}
+/* The previous subgrid used display:contents: restore real groups so the gap exists. */
+#main.simplified-home #offers .pricing-overview>.pricing-client,
+#main.simplified-home #offers .pricing-overview>.pricing-market{display:block!important}
+#main.simplified-home #offers .pricing-overview>.pricing-market{margin-top:56px!important;padding-top:32px!important;border-top:1px solid var(--clarity-border)}
+#main.simplified-home #offers .pricing-group-heading{margin-bottom:24px!important;line-height:1.3}
+#main.simplified-home #offers .pricing-client .pricing-card-grid{column-gap:24px}
+#main.simplified-home #offers .pricing-card{padding:28px}
+#main.simplified-home #offers .pricing-market .pricing-card{grid-row:auto;column-gap:32px;row-gap:16px}
+#main.simplified-home #offers .pricing-note{margin-top:26px;line-height:1.65}
+#main.simplified-home #closing{padding-block:56px!important}
+#main.simplified-home #closing .closing-statement{color:#202a23;line-height:1.3;max-width:36ch;margin-bottom:20px}
+#main.simplified-home #closing .heading-accent{color:inherit!important}
+#main.simplified-home #closing .closing-keyword{color:var(--brand-coral,#fc5b34)!important}
+#main.simplified-home #closing .closing-keyword *{color:inherit!important}
+#main.simplified-home #closing p{margin-bottom:24px}
+@media(max-width:760px){#main.simplified-home #offers .pricing-overview>.pricing-market{margin-top:38px!important;padding-top:26px!important}#main.simplified-home #offers .pricing-card{padding:24px}#main.simplified-home #offers .pricing-group-heading{margin-bottom:20px!important}#main.simplified-home #closing{padding-block:40px!important}}
+/* French headline: neutral lettering, one discreet underline on the service phrase. */
+html[lang^="fr"] .simplified-home .hero-heading-balanced h1,
+html[lang^="fr"] .simplified-home .hero-heading-balanced h1 *{color:#202a23!important}
+html[lang^="fr"] .simplified-home .hero-heading-balanced h1 .hero-keyphrase{text-decoration-line:underline;text-decoration-color:#fc5b34;text-decoration-thickness:2px;text-underline-offset:.14em;text-decoration-skip-ink:auto}
+/* Romina's own blue-ink signature, extracted from her supplied photograph. */
+.simplified-home .signature-handwritten img{width:clamp(230px,25vw,320px);max-width:100%;height:auto;transform:none;object-fit:contain;object-position:left center}
+@media(max-width:760px){.simplified-home .signature-handwritten img{width:250px}}
+/* Approved French headline accent: only the service phrase uses the logo's coral. */
+html[lang^="fr"] .simplified-home .hero-heading-balanced h1 .hero-keyphrase,
+html[lang^="fr"] .simplified-home .hero-heading-balanced h1 .hero-keyphrase *{color:#fc5b34!important;text-decoration:none}
